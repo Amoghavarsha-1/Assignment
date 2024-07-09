@@ -1,0 +1,110 @@
+
+*{
+    background-size: cover;
+    background-attachment: fixed;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.background_image{
+    background-image: url(https://cdn.wallpapersafari.com/3/49/3kWepI.jpg);
+    height:950px ;
+    width:1470px;
+    
+}
+.linear_gradient{
+    background-image:linear-gradient(aqua,rgb(26, 0, 128));
+    border-radius: 2px;
+    box-shadow: 200px;
+    height:700px;
+    width:1470px;
+    
+}
+.header{
+    position: fixed;
+    padding: 20px 100px;
+    width:100%;
+    height:80px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav button{
+    margin-left: 40px;
+    border-radius: 30px;
+    height:40px;
+    width:95px;
+    font-size:large;
+}
+.logo{
+    color: #fff;
+    font-size: x-large;
+    cursor: pointer;
+}
+.logo:hover{
+color:rgb(253, 111, 255)
+}
+
+.linear_gradient{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.flex{
+    border:3px solid white;
+    width:270px;
+    height:360px;
+    border-radius: 5px;
+    
+}
+button {
+    cursor:pointer;
+}
+.btn{
+    transition: background-color 0.8s ease;
+}
+.btn_primary{
+    background-color: rgb(0, 136, 255);
+    color:azure;
+}
+.btn_primary:hover{
+    background-color: rgb(232, 255, 156);
+    color:black;
+}
+.flex{
+    transition:background-color 1.8s ease ;
+    color:rgb(255, 255, 255);
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    margin-left: 115px;
+    cursor: pointer;
+    padding:15px;
+}
+.flex{
+    background-color: rgb(99, 128, 142);
+   
+}
+.flex:hover{
+    background-color: blueviolet;
+
+}
+.explore{
+    position: relative;
+    top:400px;
+     left:680px;
+     width: 130px;
+     height: 40px;
+     border-radius: 20%;
+     background-color: aqua;
+     font-size: larger;
+}
+.explore:hover{
+background-color: rgb(244, 191, 99);
+}
+#set{
+    color:white;
+    position: relative;
+    top:290px;
+}
